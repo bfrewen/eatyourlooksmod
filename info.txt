@@ -1,0 +1,43 @@
+Some pages with documentation
+
+1. Google's tutorial that uses the Google cloud version of lambdas to do the processing
+https://cloud.google.com/functions/docs/tutorials/ocr#objectives_1
+
+    NOTE: worked through this tutorial and got it to work with their images and mine.
+
+2. Tutorial for using the Vision API to find text and, more importantly, bounding boxes
+https://medium.com/searce/tips-tricks-for-using-google-vision-api-for-text-detection-2d6d1e0c6361
+
+3. Google's tutorial / how-to guide for finding text.
+https://cloud.google.com/vision/docs/ocr
+
+4. Above pairs with this quick-start gude for Vision client libraries.
+https://cloud.google.com/vision/docs/quickstart-client-libraries
+
+5. Github project demo-ing how to use text detection
+https://github.com/GoogleCloudPlatform/cloud-vision/tree/master/python/text
+
+    NOTE: requires a Redis server
+
+6. Google's tutorial for Document text detection. I think this still works with images, but is
+   optimized for dense text. OR maybe it only works with document-type file types.
+https://cloud.google.com/vision/docs/fulltext-annotations
+
+7. ** API documentation **
+https://googleapis.dev/python/vision/latest/index.html
+
+Some next steps
+
+* I think I have exhausted resurce #3 which also used #4. Look at 2.
+* 2. in progress (although reverted to https://cloud.google.com/vision/docs/fulltext-annotations)
+	* number the boxes DONE
+	* extract the title
+	* extract the list of ingredients (create resource list of ingredients)
+
+INFO on project in progress
+
+project name: client vision poc
+service account name: client-viz-poc
+ 
+
+
