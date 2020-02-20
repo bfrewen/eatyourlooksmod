@@ -25,3 +25,6 @@ pytest
 ## References
 Quick start guide for using API client libraries.
 https://cloud.google.com/vision/docs/quickstart-client-libraries
+
+Reference for the objects returned from the API. See "fullTextAnnotation".
+https://cloud.google.com/vision/docs/reference/rest/v1/AnnotateImageResponse
